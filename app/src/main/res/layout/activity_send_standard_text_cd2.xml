@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendStandardTextCd2"
+    android:background="#0086ad"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewIdStdBC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="#daf8e3"
+        android:textSize="14dp"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewIdStdl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewIdStdl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewIdStdl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewIdStdl4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewIdStdl5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonConfirmStd"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/universal_button"
+        android:onClick="ConfirmStd"
+        android:text="Back to main menu"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSendStd"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/universal_button"
+        android:text="Send" />
+
+</LinearLayout>

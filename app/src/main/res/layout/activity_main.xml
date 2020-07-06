@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#0086ad">
+
+
+
+    <Button
+        android:id="@+id/buttonStd"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/selector_btn1"
+        android:text="Send Standard Text"
+        android:textColor="#daf8e3"
+        app:layout_constraintEnd_toStartOf="@+id/buttonEStd"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEStd"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/selector_btn2"
+        android:text="Edit Standard Text"
+        android:textColor="#daf8e3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonStd"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAlt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selectro_btn3"
+        android:text="Send Alternative Text"
+        android:textColor="#daf8e3"
+        app:layout_constraintEnd_toStartOf="@+id/buttonWhat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStd" />
+
+    <Button
+        android:id="@+id/buttonWhat"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selectro_btn4"
+        android:text="Currently Displayed Text"
+        android:textColor="#daf8e3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonAlt"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEStd" />
+
+    <Button
+        android:id="@+id/buttonInfo"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:background="@drawable/selector_btn5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAlt"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

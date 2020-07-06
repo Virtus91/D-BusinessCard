@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendAlternativeText"
+    android:background="#0086ad"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"
+        android:text="Select background color" />
+
+
+    <Spinner
+        android:id="@+id/spinner_BcAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#daf8e3"
+        android:popupBackground="@drawable/button_when_not_pressed"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select font size for line 1"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerLine1Alt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#daf8e3"
+        android:popupBackground="@drawable/button_when_not_pressed"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select font size for line 2"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerLine2Alt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#daf8e3"
+        android:popupBackground="@drawable/button_when_not_pressed"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select font size for line 3"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerLine3Alt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#daf8e3"
+        android:popupBackground="@drawable/button_when_not_pressed"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select font size for line 4"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerLine4Alt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#daf8e3"
+        android:popupBackground="@drawable/button_when_not_pressed"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select font size for line 5"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerLine5Alt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#daf8e3"
+        android:popupBackground="@drawable/button_when_not_pressed"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginTop="13dp"
+        android:id="@+id/btnConfirmEditAltText"
+        android:background="@drawable/universal_button"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="Next"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

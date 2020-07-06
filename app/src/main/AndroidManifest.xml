@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.d_businesscard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SendStandardTextCd2"
+            android:parentActivityName=".SendStandardTextCd1"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".SendStandardTextCd1"
+            android:parentActivityName=".SendStandardText"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SendAlternativeTextCd2"
+            android:parentActivityName=".SendAlternativeTextCd1"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SendAlternativeTextCd1"
+            android:parentActivityName=".SendAlternativeText"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Info"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CurrantlyDisplayedText"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SendAlternativeText"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EditStandardText"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SendStandardText"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

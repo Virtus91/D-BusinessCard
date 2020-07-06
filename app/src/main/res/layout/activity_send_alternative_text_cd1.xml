@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:background="#0086ad"
+    tools:context=".SendAlternativeTextCd1">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:errorEnabled="true"
+        android:layout_marginTop="15dp">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_input_line1Ed"
+            android:hint="Line 1"
+            android:singleLine="true"
+            android:textColor="#daf8e3"
+            android:backgroundTint="#daf8e3"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPRSTUVWXYZ1234567890(),.?!@#$%^*()-+=;:' "
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:errorEnabled="true">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_input_line2Ed"
+            android:hint="Line 2"
+            android:singleLine="true"
+            android:textColor="#daf8e3"
+            android:backgroundTint="#daf8e3"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPRSTUVWXYZ1234567890(),.?!@#$%^*()-+=;:' "
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:errorEnabled="true">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_input_line3Ed"
+            android:hint="Line 3"
+            android:singleLine="true"
+            android:textColor="#daf8e3"
+            android:backgroundTint="#daf8e3"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPRSTUVWXYZ1234567890(),.?!@#$%^*()-+=;:' "
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:errorEnabled="true">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_input_line4Ed"
+            android:hint="Line 4"
+            android:singleLine="true"
+            android:textColor="#daf8e3"
+            android:backgroundTint="#daf8e3"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPRSTUVWXYZ1234567890(),.?!@#$%^*()-+=;:' "
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_line5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:errorEnabled="true">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_input_line5Ed"
+            android:hint="Line 5"
+            android:singleLine="true"
+            android:textColor="#daf8e3"
+            android:backgroundTint="#daf8e3"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPRSTUVWXYZ1234567890(),.?!@#$%^*()-+=;:' "
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="Confirm"
+        android:id="@+id/btnwtcd1"
+        android:textColor="#daf8e3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/universal_button"
+        android:onClick="ConfirmInputwtcd"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Clear"
+        android:textColor="#daf8e3"
+        android:background="@drawable/universal_button"
+        android:id="@+id/ButtonClear"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="Clear"
+        />
+
+</LinearLayout>
